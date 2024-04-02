@@ -1,0 +1,29 @@
+@import url(./variables.css);    
+
+/* Reset */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.destacados {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.card-img {
+    max-width: 200px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    padding: 1rem;
+   
+}
+
+.card-btn {
+    width: 100%;
+}
