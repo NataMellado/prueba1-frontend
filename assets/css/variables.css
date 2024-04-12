@@ -1,0 +1,27 @@
+:root {
+    /* Font Family*/
+    --ff-logo: 'Red Hat Display', sans-serif;
+    --ff-body: 'Roboto', sans-serif;
+
+    /* Font weight */
+    --fw-regular: 400;
+    --fw-bold: 700;
+    --f-black: 900 italics;
+
+    /* Colors */
+    --clr-pr: #0070DC;
+    --clr-snd: #FFC223;
+    --clr-ter: #E0251C;
+
+    /* Neutral Colors */
+    --clr-white: #fff;
+    --clr-gray: #F0F0F0;
+    --clr-black: #000;
+
+    /* Border Radius */
+    --br: 0.75rem;
+
+
+
+
+}
