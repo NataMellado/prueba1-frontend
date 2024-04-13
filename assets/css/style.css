@@ -4,26 +4,138 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
-.destacados {
-    padding: 1rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
+
+
+
+/* Navbar */
+
+.navbar-mobile {
+    display: none;
 }
 
-.card-img {
-    max-width: 200px;
+.navbar {
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: var(--clr-pr);
+    color: white;
 }
 
-.card {
-    border: 1px solid #ccc;
-    border-radius: 1rem;
-    padding: 1rem;
-   
+.navbar-desktop,
+.navbar-wrapper1,
+.navbar-wrapper2,
+.navbar-desktop .logo-wrapper,
+.search-container  {
+    display: flex;
+    align-items: center;
 }
 
-.card-btn {
-    width: 100%;
+.navbar-wrapper1,
+.navbar-wrapper2 {
+     gap: 2.5rem;
 }
+
+.navbar a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-size: var(--fs-14);
+}
+
+.navbar i {
+    font-size: var(--fs-18);
+}
+
+.navbar .logo-text {
+    font-family: var(--ff-logo);
+    font-weight: var(--fw-black);
+    font-style: italic;
+    font-size: var(--fs-24);
+}
+
+
+.logo {
+    width: 1.75rem;
+    height: 1.938rem;
+}
+
+.search-container {
+    height: 2rem;
+    padding: 0 0.5rem;
+    background-color: var(--clr-white);
+    border-radius: var(--br-17);
+  
+}
+
+.search-container input {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    outline: none;
+    border-radius: var(--br-17);
+}
+
+.search-container button {
+    width: 1.625rem;
+    height: 1.625rem;
+    background-color: var(--clr-snd);
+    border: none;
+    border-radius: var(--br-50);
+    padding: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container i {
+    font-size: var(--fs-12);
+    color: var(--clr-black);
+}
+
+@media screen and (max-width: 890px) {
+    .navbar {
+        padding: 0.5rem;
+    }
+    .navbar-desktop {
+        display: none;
+    }
+
+    .navbar-mobile {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: space-between;
+    }
+
+    .navbar-wrapper,
+    .menu-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-container {
+        gap: clamp(0.5rem, 5vw, 2rem);
+    }
+
+    .search-container {
+        justify-content: space-between;
+    }
+
+    .store-link {
+        background: var(--clr-gray);
+    }
+
+}
+
+
+
+
+
+
+/* Destacados */
+
