@@ -136,6 +136,36 @@ body {
 
 
 
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 4.75rem;
+}
+
+@media screen and (max-width: 890px) {
+    main {
+        padding: 1rem 0.313rem;
+    }
+}
+
+
+
+
+
+/* Banner */
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--br-12);
+}
+
+
+
+
 
 /* Destacados */
 
