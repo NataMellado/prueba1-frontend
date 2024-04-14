@@ -223,6 +223,11 @@ main {
     border-radius: var(--br-17);
     padding: 0.5rem 2rem;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease-in-out;
+}
+
+.featured-card-footer .button:hover {
+    transform: scale(1.05);
 }
 
 .featured-card-footer a {
