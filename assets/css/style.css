@@ -7,6 +7,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
 
 
 
@@ -167,5 +172,63 @@ main {
 
 
 
-/* Destacados */
+/* Featured */
+.featured-section h1 {
+    font-size: clamp(var(--fs-16), 4vw, var(--fs-24));
+    margin-bottom: 0.625rem;
+}
+
+.featured-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.featured-card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--clr-white);
+    border-radius: var(--br-12);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.featured-card h2 {
+    margin-bottom: 0.8rem;
+}
+
+.featured-card img {
+    border-radius: var(--br-12) var(--br-12) 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+.featured-card-footer {
+    display: grid;
+    background: var(--clr-pr);
+    color: var(--clr-white);
+    padding: 1rem;
+    border-radius: 0 0 var(--br-12) var(--br-12);
+}
+
+.featured-card-footer .conditions {
+    margin-top: 0.2rem;
+    font-size: var(--fs-10);
+}
+
+.featured-card-footer .button {
+    background: var(--clr-white);
+    border: none;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: var(--br-17);
+    padding: 0.5rem 2rem;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.featured-card-footer a {
+    text-decoration: none;
+    color: var(--clr-black);
+    font-size: var(--fs-12);
+    font-weight: var(--fw-bold);
+}
 
