@@ -323,9 +323,10 @@ a.disabled {
 
 .product-card-img {
     width: 100%;
-    min-height: 350px;
+    min-height: 400px;
     max-height:500px;
     border-radius: 8px;
+    object-fit:inherit;
 }
 .product-card h2 {
     margin-top: 10px;
