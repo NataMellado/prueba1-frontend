@@ -391,3 +391,35 @@ product-section {
         width: 100%; /* Hacer que los productos ocupen todo el ancho en dispositivos móviles */
     }
 }
+
+/* footer  */
+
+footer {
+    background-color: var(--clr-pr); /* Fondo blanco */
+    padding: 20px;
+    text-align: center;
+    color: #fff; /* Color principal */
+    font-size: 14px;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    margin-right: 10px;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
