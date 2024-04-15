@@ -308,6 +308,7 @@ a.disabled {
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .product-card-img {
@@ -315,7 +316,7 @@ a.disabled {
     min-height: 400px;
     max-height:500px;
     border-radius: 8px;
-    object-fit:inherit;
+    object-fit:cover;
 }
 .product-card h2 {
     margin-top: 10px;
@@ -391,7 +392,7 @@ footer {
     font-size: 14px;
     position:relative;
     bottom: 0;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .footer-content {
