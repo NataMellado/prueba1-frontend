@@ -159,7 +159,7 @@ ul {
   }
   
   li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #004f9a;
   }
   
   li.dropdown {
@@ -290,4 +290,5 @@ main {
     font-size: var(--fs-12);
     font-weight: var(--fw-bold);
 }
+
 
