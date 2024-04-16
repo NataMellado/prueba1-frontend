@@ -175,6 +175,10 @@ ul {
     z-index: 1;
     border-radius: var(--br-12);
   }
+
+  .dropdown-content-mini {
+    margin-left: -7rem;
+  }
   
   .dropdown-content a {
     color: black;
@@ -192,6 +196,7 @@ ul {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
 
 
 
